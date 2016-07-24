@@ -1,0 +1,16 @@
+// header
+
+.header {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+@include media($screen-md) {
+  .header {
+    padding: 1rem 0;
+
+    .container {
+      position: relative;
+    }
+  }
+}
