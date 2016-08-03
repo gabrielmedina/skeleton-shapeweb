@@ -86,7 +86,7 @@
 
   .nav__link {
     color: $primary;
-    font-size: .9rem;
+    font-size: .9em;
     padding: 1rem 4rem;
   }
 
@@ -104,9 +104,10 @@
       &:after {
         content: "";
 
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
+        z-index: 100;
 
         display: block;
         width: 100%;
@@ -128,7 +129,7 @@
     line-height: 3rem;
 
     color: $primary;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     text-align: center;
     text-decoration: none;
 
@@ -169,7 +170,7 @@
   }
 
   .nav__link {
-    font-size: 1rem;
+    font-size: 1em;
 
     &:hover,
     &:focus {
