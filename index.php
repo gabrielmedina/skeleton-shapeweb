@@ -1,18 +1,16 @@
 <?php
+  require_once 'functions/functions.php';
+
   $site        = 'boilerplate/';
   $titulo      = 'Boilerplate';
   $description = '';
   $keywords    = '';
-
-  define('_BASE_',$endereco);
-
-  $url = end(explode("/",$_SERVER['REQUEST_URI']));
 ?>
 
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <base href="<?php echo _BASE_;?>">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,13 +29,13 @@
 </head>
 
 <body>
-  <?php include '_header.php' ?>
+  <?php include('pages/_header.php') ?>
 
   <div class="main">
-    <?php include (!empty($url) && file_exists($url.'.php') && is_file($url.'.php')) ? $url.'.php' : 'home.php'; ?>
+    <?php include_page(); ?>
   </div>
 
-  <?php include '_footer.php' ?>
+  <?php include('pages/_footer.php') ?>
 
   <script src="public/js/application.js"></script>
   <script src="//localhost:1337/livereload.js"></script>
