@@ -11,6 +11,8 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
+          <a class="nav__link" href="/">Home</a>
+          <a class="nav__link" href="/new-page">New Page</a>
           <a class="nav__link" href="https://github.com/gabrielmedina/skeleton">Fork</a>
         </li>
       </ul>

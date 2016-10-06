@@ -4,30 +4,26 @@
 
 ## How to use
 
+    git clone  git@github.com:gabrielmedina/skeleton-shapeweb.git
+    cd skeleton
+    php -S localhost:8080 (or other port)
+
 ### Required
+- PHP 5+
 - Node.js (Grunt and Bower)
 - Ruby (Sass)
 
 Dependencies of NPM
 
-```shell
-npm install
-```
+    npm install
 
 Dependencies of Bower
 
-```shell
-bower install
-```
+    bower install
 
 Run Grunt
 
-```shell
-grunt w
-```
-
-:ship:
-
+    grunt w
 
 # Libraries
 
@@ -36,7 +32,6 @@ grunt w
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Ionicons](http://ionicons.com/)
-
 
 ============
 gmedina.santos@gmail.com
