@@ -1,0 +1,30 @@
+// logo
+
+.logo {
+  margin: 0;
+  text-align: center;
+}
+
+.logo__link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo__image {
+  display: block;
+  width: auto;
+}
+
+@include screen-md {
+  .logo {
+    text-align: left;
+  }
+
+  .logo__link {
+
+  }
+
+  .logo__image {
+    height: 4rem;
+  }
+}

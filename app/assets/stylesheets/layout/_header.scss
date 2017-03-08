@@ -1,0 +1,28 @@
+// header
+
+.header {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+
+}
+
+@include screen-md {
+  .header {
+    padding: 1rem 0;
+  }
+
+  .header__logo {
+
+  }
+
+  .header__nav {
+
+  }
+}

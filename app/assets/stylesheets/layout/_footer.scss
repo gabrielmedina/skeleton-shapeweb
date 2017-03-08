@@ -1,0 +1,40 @@
+// footer
+
+.footer {
+  cursor: default;
+
+  padding: 1rem 0;
+
+  color: lighten($black, 40%);
+  font-size: .75em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__link {
+  color: $primary;
+  text-decoration: none;
+}
+
+.footer__small {
+  font-size: 1em;
+}
+
+.footer__author {
+  font-size: 1em;
+  margin-top: .5rem;
+}
+
+@include screen-md {
+  .footer {
+    text-align: left;
+  }
+
+  .footer__small {
+
+  }
+
+  .footer__author {
+    margin-top: 0;
+  }
+}

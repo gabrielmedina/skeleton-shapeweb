@@ -1,14 +1,12 @@
 {
-  "name": "boilerplate",
-  "version": "0.0.1",
-  "homepage": "https://github.com/gabrielmedina/boilerplate",
+  "name": "skeleton",
+  "description": "",
+  "main": "gulpfile.js",
   "authors": [
     "gabrielmedina <gmedina.santos@gmail.com>"
   ],
-  "moduleType": [
-    "node"
-  ],
   "license": "MIT",
+  "homepage": "https://github.com/gabrielmedina/gulp-skeleton",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,9 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~1.11.1",
-    "livereload-js": "~2.2.1",
-    "modernizr": "~2.8.3",
-    "owl.carousel": "^2.1.6"
+    "jquery": "^3.1.1"
   }
 }
